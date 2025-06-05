@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>netstandard2.0</TargetFramework>
+		<LanguageVersion>9.0</LanguageVersion>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<Title>Balsam.Common.dll</Title>
+		<Company>Balsam Research, LLC</Company>
+		<Product>Balsam Research Backtesting Framework</Product>
+		<Description>Interfaces and enums used for trading related applications across Balsam Research code libraries</Description>
+		<Authors>Balsam Research, LLC</Authors>
+		<Copyright>Copyright © 2007-2025 Balsam Research, LLC</Copyright>
+		<AssemblyVersion>1.0.0.0</AssemblyVersion>
+		<FileVersion>1.0.6</FileVersion>
+		<PackageVersion>1.0.6</PackageVersion>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+		<PackageId>Balsam.Common</PackageId>
+		<PackageOutputPath>$(SolutionDir)\nupkg</PackageOutputPath>
+		<PackageProjectUrl>https://www.balsamresearch.com/backtester/</PackageProjectUrl>
+		<PackageTags>backtest Balsam</PackageTags>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageIcon>BalsamLogo.png</PackageIcon>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="..\BalsamLogo.png">
+			<Pack>True</Pack>
+			<PackagePath>\</PackagePath>
+		</None>
+	</ItemGroup>
+
+</Project>
