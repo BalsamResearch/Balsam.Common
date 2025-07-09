@@ -40,23 +40,33 @@ namespace Balsam
         int Count { get; }
 
         /// <summary>
-        /// Gets the first date.
+        /// Gets the first available date.
         /// </summary>
-        DateTime FirstDate { get; }
+        DateTime StartDate { get; }
 
         /// <summary>
-        /// Gets the last date.
+        /// Gets the last available date.
         /// </summary>
-        DateTime LastDate { get; }
+        DateTime EndDate { get; }
 
         /// <summary>
-        /// Gets the full path of the file.
+        /// Gets the source of the data item, such as a machine name, URL, or connection string.
         /// </summary>
-        string FullName { get; }
+        string Source { get; }
 
         /// <summary>
-        /// Gets the last write time of the file.
+        /// Gets the full filename or path of the data item.
         /// </summary>
-        DateTime FileTime { get; }
+        string Path { get; }
+
+        /// <summary>
+        /// Gets the last write time of the data item in UTC format.
+        /// </summary>
+        DateTime LastWriteTimeUtc { get; }
+
+        /// <summary>
+        /// Gets the fingerprint of the data item, a hash code identifier of the underlying data.
+        /// </summary>
+        int Fingerprint { get; }
     }
 }
