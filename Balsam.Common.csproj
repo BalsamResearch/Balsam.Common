@@ -11,13 +11,13 @@
 		<Authors>Balsam Research, LLC</Authors>
 		<Copyright>Copyright © 2007-2025 Balsam Research, LLC</Copyright>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
-		<FileVersion>1.0.6</FileVersion>
-		<PackageVersion>1.0.6</PackageVersion>
+		<FileVersion>1.1.0</FileVersion>
+		<PackageVersion>1.1.0</PackageVersion>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<PackageId>Balsam.Common</PackageId>
 		<PackageOutputPath>$(SolutionDir)\nupkg</PackageOutputPath>
 		<PackageProjectUrl>https://www.balsamresearch.com/backtester/</PackageProjectUrl>
-		<PackageTags>backtest Balsam</PackageTags>
+		<PackageTags>Balsam backtest trading</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>BalsamLogo.png</PackageIcon>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
