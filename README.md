@@ -2,7 +2,7 @@
 
 `Balsam.Common` provides a common set of trading related interfaces and enums used by several `Balsam` libraries. It is released under the MIT license to facilitate potential interoperability scenarios.
 
-*Please note the `Balsam.Backtester` and associated code libraries are licensed separately under a commercial license requiring a valid license key.*
+*Please note the `Balsam.Backtester` and associated code libraries are licensed separately under a commercial license.*
 
 ### About
 The Balsam Research Backtester is a suite of tools designed for rapid prototyping and testing of systematic trading strategies. It can run simple event studies to quantify market "edges" all the way to full blown multi-currency, multi-timeframe, multi-strategy portfolio simulations. Check out the documentation [here](https://backtester.balsamresearch.com/docs/Introduction).

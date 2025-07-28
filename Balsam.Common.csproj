@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>netstandard2.0;net472;net8.0</TargetFrameworks>
+		<TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>
 		<LanguageVersion>9.0</LanguageVersion>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<Title>Balsam.Common.dll</Title>
