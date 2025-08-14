@@ -17,7 +17,7 @@
 		<PackageId>Balsam.Common</PackageId>
 		<PackageOutputPath>$(SolutionDir)\nupkg</PackageOutputPath>
 		<PackageProjectUrl>https://www.balsamresearch.com/backtester/</PackageProjectUrl>
-		<PackageTags>Balsam backtest trading</PackageTags>
+		<PackageTags>Balsam Research backtest trading financial markets</PackageTags>
 		<PackageReadmeFile>README.md</PackageReadmeFile>
 		<PackageIcon>BalsamLogo.png</PackageIcon>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
