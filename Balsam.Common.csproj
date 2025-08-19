@@ -2,7 +2,6 @@
 
 	<PropertyGroup>
 		<TargetFrameworks>netstandard2.0;net462;net8.0</TargetFrameworks>
-		<LanguageVersion>9.0</LanguageVersion>
 		<GenerateDocumentationFile>True</GenerateDocumentationFile>
 		<Title>Balsam.Common.dll</Title>
 		<Company>Balsam Research, LLC</Company>
@@ -11,8 +10,8 @@
 		<Authors>Balsam Research, LLC</Authors>
 		<Copyright>Copyright © 2007-2025 Balsam Research, LLC</Copyright>
 		<AssemblyVersion>1.0.0.0</AssemblyVersion>
-		<FileVersion>1.1.1</FileVersion>
-		<PackageVersion>1.1.1</PackageVersion>
+		<FileVersion>1.1.2</FileVersion>
+		<PackageVersion>1.1.2</PackageVersion>
 		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<PackageId>Balsam.Common</PackageId>
 		<PackageOutputPath>$(SolutionDir)\nupkg</PackageOutputPath>
