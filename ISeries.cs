@@ -139,8 +139,14 @@ namespace Balsam
         /// </summary>
         void Clear();
 
-        /// Returns a new ISeries that is synced with the specified dates.
+        /// Returns a new series that is synced with the specified dates.
         ISeries Sync(IEnumerable<DateTime> dates);
+
+        /// <summary>
+        /// Returns a clone of this series.
+        /// </summary>
+        /// <returns></returns>
+        ISeries Clone();
 
         #endregion
     }
