@@ -115,7 +115,7 @@ namespace Balsam
         /// <returns></returns>
         public override string ToString()
         {
-            return string.Format("{0}: {1}", Severity, Message);
+            return $"{Severity}: {Message}";
         }
     }
 }

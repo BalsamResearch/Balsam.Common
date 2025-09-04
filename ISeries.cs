@@ -143,7 +143,7 @@ namespace Balsam
         ISeries Sync(IEnumerable<DateTime> dates);
 
         /// <summary>
-        /// Returns a clone of this series.
+        /// Returns an independent copy of this series.
         /// </summary>
         /// <returns></returns>
         ISeries Clone();
